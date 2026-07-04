@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "ZCOOL KuaiLe", "Quicksand", system-ui, sans-serif;
+  
+  --color-natural-bg: #F9F7F2;
+  --color-natural-text: #4A4A40;
+  --color-natural-heading: #3D3D33;
+  --color-natural-muted: #A3A38E;
+  --color-natural-green: #8BA888;
+  --color-natural-sand: #D4A373;
+  --color-natural-border: #E6E2D3;
+  --color-natural-border-light: #F0EDE4;
+  --color-natural-olive: #E9EDC9;
+  --color-natural-darkgreen: #5A6A58;
+  --color-natural-dark: #263238;
+}
+
+/* Custom animations and scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Kid-friendly playful bounce classes */
+@keyframes playful-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-playful-bounce {
+  animation: playful-bounce 3s ease-in-out infinite;
+}

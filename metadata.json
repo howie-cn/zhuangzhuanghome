@@ -1,0 +1,6 @@
+{
+  "name": "壮壮的个人网站",
+  "description": "小学生壮壮的个人展示与互动网站，包含游泳、钓鱼、浆板、编程和智能机器人等兴趣展示，以及与同学、家人的互动空间。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
